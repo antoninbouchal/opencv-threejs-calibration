@@ -10,7 +10,35 @@ in points and matrices.
 
 ## Starting steps
 
-__1. Get camera calibration matrix__
+__1. Run python script to get camera calibration matrix__
+
+```shell script
+python camera_calibration.py
+```
+
+__2. Solve PnP and get projection matrix__
+
+```shell script
+python solve_pnp.py
+```
+
+__3. Compile JS__
+
+```shell script
+npm run build
+# or
+npm run watch
+``` 
+
+__4. Start HTTP server__
+
+```shell script
+npm start
+```
+
+__5. Open debug visualizer in browser__
+
+URL: http://127.0.0.1:8080
 
 
 ## Flow of this project
