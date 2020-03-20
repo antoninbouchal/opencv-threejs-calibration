@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="corners-container">
+    <h1>Scene corners</h1>
+    <p>
+        Photo of block visualization from solvePnP through `projectPoints` function in OpenCV.
+    </p>
+    <img src="/test_images/solve_pnp_visualize.png" style="width: 100%">
+
+    <p>
+        This is photo of scene with target object corners visualization used in `solvePnP` function in `solve_pnp.py` script.
+    </p>
+</div>
+<div id="scene-container">
+    <h1>Scene corners</h1>
+    <p>
+        Here is attempt to visualize 3D object in same position as in scene photo.
+    </p>
+</div>
+
+<div id="debug-container">
+    <h1>Camera position visualizer</h1>
+    <p>
+        Interactive visualization of camera position due to target image object. Yellow cone is interpreting camera position.
+    </p>
+</div>
+
+<script src="/js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+
+}
+
+#scene-image {
+    width: 100%;
+}
+
+#corners-container {
+    float: left;
+    width: 30%;
+}
+
+#scene-container {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+#pose-canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#debug-container {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+#debug-canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
