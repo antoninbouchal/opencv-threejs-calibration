@@ -53,7 +53,7 @@ export default class Scene {
 
         this._camera.applyMatrix4(matrix4)
 
-        this._camera.rotateX(-Math.PI/4)
+        // this._camera.rotateX(-Math.PI/4)
     }
 
     _setDomElement() {
